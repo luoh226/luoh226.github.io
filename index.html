@@ -8,6 +8,13 @@
         <script src="js/jquery-3.6.1.min.js"></script>
     </head>
     <body>
+
+    <div class="sk-three-bounce" id="sk-three-bounce">
+        <div class="sk-child sk-bounce1"></div>
+        <div class="sk-child sk-bounce2"></div>
+        <div class="sk-child sk-bounce3"></div>
+    </div>
+
     <header class="header">
         <div class="nva">
             <ul class="list">
@@ -97,5 +104,11 @@
 <script>
     $(window).on('beforeunload',function () {
         $(window).scrollTop(0);
+        $("#sk-three-bounce").show();
     });
+    document.onreadystatechange = function () {
+        if (document.readyState == "complete") {
+            $("#sk-three-bounce").hide();
+        }
+    }
 </script>
