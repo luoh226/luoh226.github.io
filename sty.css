@@ -1,0 +1,321 @@
+/* CSS Document */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    height: 0;
+    visibility: hidden;
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+body {
+    background: url("../img/background.png") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.content {
+    width: 80%;
+    height: 450px;
+    margin: 0 auto 120px auto;
+    border-radius: 10px;
+    background-color: rgba(236, 236, 236, 0.9);
+    transition: all 1.0s;
+    /*background-color: pink;/*/
+}
+
+.content2 {
+    width: 80%;
+    height: 450px;
+    margin: 0 auto 120px auto;
+    border-radius: 10px;
+    background-color: rgba(236, 236, 236, 0.9);
+    transition: all 1.0s;
+    /*background-color: pink;/*/
+}
+
+.footer{
+    height: 220px;
+    background-color: rgba(255,255,255,0.9);
+}
+
+.contact{
+    width: 70%;
+    height: 100%;
+    margin: 200px auto 0 auto;
+    /*background-color: #4855EC;*/
+}
+
+.text{
+    float: left;
+    width: 40%;
+    height: 100%;
+    /*background-color: greenyellow;*/
+}
+
+.icon{
+    float: right;
+    width: 38%;
+    height: 100%;
+    /*background-color: yellow;*/
+}
+
+.end{
+    float: bottom;
+    background-color: rgba(255,255,255,0.9);
+    text-align: center;
+    font-size: 10px;
+}
+
+.email{
+    margin-top: 10px;
+    color: blue;
+    font-size: 18px;
+}
+
+.csdn{
+    margin-top: 10px;
+    color: red;
+    font-size: 18px;
+}
+
+.github{
+    margin-top: 10px;
+    color: black;
+    font-size: 18px;
+}
+
+.space{
+    height: 120px;
+}
+
+.content img {
+    float: left;
+    width: 240px;
+    height: 320px;
+    margin: 70px 0 0 5%;
+    border-radius: 20px;
+}
+
+.img1 {
+    float: right;
+    width: 280px;
+    height: 240px;
+    margin: 90px 5% 0 0;
+    border-radius: 20px;
+}
+
+.img2 {
+    float: right;
+    width: 200px;
+    height: 240px;
+    margin: 90px 3% 0 0;
+    border-radius: 20px;
+}
+
+.img3 {
+    float: left;
+    width: 60px;
+    height: 60px;
+    margin: 70px 10% 0 0;
+}
+
+.content:hover {
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.8);
+    /*background-color: pink;*/
+}
+
+.content2:hover {
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.8);
+    /*background-color: pink;*/
+}
+
+.content_r {
+    float: right;
+    width: 63%;
+    margin: 70px 5% 0 0;
+    /*background-color: pink;*/
+}
+
+.content2_r {
+    float: left;
+    width: 33%;
+    margin: 85px 0 0 5%;
+    /*background-color: pink;*/
+}
+
+.content_l {
+    float: left;
+    width: 100%;
+    text-align: center;
+    /*background-color: pink;*/
+}
+
+.content2_l {
+    float: right;
+    width: 100%;
+    text-align: center;
+    /*background-color: pink;*/
+}
+
+.content_l h5 {
+
+    font-size: 17px;
+}
+
+.cc {
+    margin-top: 10px;
+    color: #1F2023;
+    font-size: 18px;
+}
+
+.color_1 {
+    margin-top: 10px;
+    color: black;
+    font-size: 18px;
+}
+
+.deeppink {
+    margin-top: 10px;
+    color: black;
+    font-size: 18px;
+}
+
+.link {
+    margin-top: 30px;
+}
+
+.link a {
+    display: block;
+    float: left;
+    width: 120px;
+    height: 45px;
+    margin: 5px 5px 0 0;
+    /*	padding: 0 15px;*/
+    color: #fff;
+    line-height: 45px;
+    transition: all 0.8s;
+    /*	background-color: deeppink;*/
+
+}
+
+.link a:hover {
+    background-color: rgba(0, 201, 243, 0.35);
+}
+
+.deeppink_1 {
+    background-color: deeppink;
+}
+
+.dodgerblue {
+    background-color: dodgerblue;
+}
+
+.magenta {
+    background-color: magenta;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.cover{
+    width: 80%;
+    height: 400px;
+    margin: 300px auto 0 auto;
+    /*background-color: cornflowerblue;*/
+}
+
+.head1{
+    height: 30%;
+    font-family: microsoft yahei, serif;
+    text-align: center;
+    color: aliceblue;
+    font-size: 80px;
+    box-shadow: 0px 0px 20px rgba(199, 154, 30, 0.3);
+    text-shadow: 0px 0px 10px rgb(250, 242, 153, 0.7);
+    transition: all 1.0s;
+}
+
+.head2{
+    height: 25%;
+    margin: 20px 0 0 0;
+    font-family: microsoft yahei, serif;
+    text-align: center;
+    line-height: 50px;
+    color: aliceblue;
+    font-size: 25px;
+    box-shadow: 0px 0px 20px rgba(199, 154, 30, 0.3);
+    text-shadow: 0px 0px 10px rgb(121, 111, 58, 0.7);
+    transition: all 1.0s;
+}
+
+.head1:hover {
+    box-shadow: 0px 0px 40px rgba(0,0,0,0.5);
+}
+
+.head2:hover {
+    box-shadow: 0px 0px 40px rgba(0,0,0,0.5);
+}
+
+.header{
+    position: fixed;
+    left:0px;
+    top:0px;
+    width:100%;
+}
+
+.nva{ width: 100%; height: 50px; margin-top: 0px; background-color: rgba(100,100,100,0.2); }
+.list{ width: 50%; height: 50px; margin: 0 auto; list-style-type: none; /*background-color: rgba(100,100,100,1);*/}
+.list li{ float: left;width: 25%}
+.list li a{ color: #ffffff; line-height: 50px; display: block; text-align: center}
+.list li a:hover{ background:rgba(255,255,255,0.3); color:rgba(255,255,255,1);     transition: all 0.3s;}
+.list li a.on{ background:rgba(255,255,255,0.3); color:rgba(255,255,255,1); }
+h1{ margin: 20px auto; text-align: center; }
+
+.xm{
+    font-family: microsoft yahei, serif;
+    color: blue;
+    font-size: 18px;
+    /*text-shadow: 0px 0px 10px rgb(121, 111, 58, 0.7)*/
+}
+
+.jkd{
+    font-family: microsoft yahei, serif;
+    color: #2570e8;
+    font-size: 18px;
+    /*text-shadow: 0px 0px 10px rgb(121, 111, 58, 0.7)*/
+}
+
+.sysu{
+    font-family: microsoft yahei, serif;
+    color: green;
+    font-size: 18px;
+    /*text-shadow: 0px 0px 10px rgb(121, 111, 58, 0.7)*/
+}
+
+.cxb{
+    font-family: microsoft yahei, serif;
+    color: #cb002d;
+    font-size: 18px;
+    /*text-shadow: 0px 0px 10px rgb(121, 111, 58, 0.7)*/
+}
+
+.zt{
+    font-family: microsoft yahei, serif;
+    color: #2570e8;
+    font-size: 18px;
+    /*text-shadow: 0px 0px 10px rgb(121, 111, 58, 0.7)*/
+}
