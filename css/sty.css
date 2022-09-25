@@ -31,7 +31,7 @@ body {
     height: 450px;
     margin: 0 auto 120px auto;
     border-radius: 10px;
-    background-color: rgba(236, 236, 236, 0.8);
+    background-color: rgba(236, 236, 236, 0.9);
     transition: all 1.0s;
     /*background-color: pink;/*/
 }
@@ -41,7 +41,7 @@ body {
     height: 450px;
     margin: 0 auto 120px auto;
     border-radius: 10px;
-    background-color: rgba(236, 236, 236, 0.8);
+    background-color: rgba(236, 236, 236, 0.9);
     transition: all 1.0s;
     /*background-color: pink;/*/
 }
@@ -105,23 +105,23 @@ body {
     float: left;
     width: 240px;
     height: 320px;
-    margin: 7% 0 0 5%;
+    margin: 70px 0 0 5%;
     border-radius: 20px;
 }
 
 .img1 {
     float: right;
-    width: 300px;
+    width: 280px;
     height: 240px;
-    margin: 10% 5% 0 0;
+    margin: 90px 5% 0 0;
     border-radius: 20px;
 }
 
 .img2 {
     float: right;
-    width: 240px;
+    width: 200px;
     height: 240px;
-    margin: 10% 3% 0 0;
+    margin: 90px 3% 0 0;
     border-radius: 20px;
 }
 
@@ -129,7 +129,7 @@ body {
     float: left;
     width: 60px;
     height: 60px;
-    margin: 20% 15% 0 0;
+    margin: 70px 10% 0 0;
 }
 
 .content:hover {
@@ -145,14 +145,14 @@ body {
 .content_r {
     float: right;
     width: 63%;
-    margin: 8% 5% 0 0;
+    margin: 70px 5% 0 0;
     /*background-color: pink;*/
 }
 
 .content2_r {
     float: left;
-    width: 32%;
-    margin: 9% 0 0 5%;
+    width: 33%;
+    margin: 85px 0 0 5%;
     /*background-color: pink;*/
 }
 
@@ -183,13 +183,13 @@ body {
 
 .color_1 {
     margin-top: 10px;
-    color: #4855EC;
+    color: black;
     font-size: 18px;
 }
 
 .deeppink {
     margin-top: 10px;
-    color: deeppink;
+    color: black;
     font-size: 18px;
 }
 
@@ -287,28 +287,35 @@ h1{ margin: 20px auto; text-align: center; }
 
 .xm{
     font-family: microsoft yahei, serif;
-    color: deepskyblue;
+    color: blue;
     font-size: 18px;
-    text-shadow: 0px 0px 10px rgb(121, 111, 58, 0.7)
+    /*text-shadow: 0px 0px 10px rgb(121, 111, 58, 0.7)*/
 }
 
 .jkd{
     font-family: microsoft yahei, serif;
-    color: deepskyblue;
+    color: #2570e8;
     font-size: 18px;
-    text-shadow: 0px 0px 10px rgb(121, 111, 58, 0.7)
+    /*text-shadow: 0px 0px 10px rgb(121, 111, 58, 0.7)*/
 }
 
 .sysu{
     font-family: microsoft yahei, serif;
-    color: greenyellow;
+    color: green;
     font-size: 18px;
-    text-shadow: 0px 0px 10px rgb(121, 111, 58, 0.7)
+    /*text-shadow: 0px 0px 10px rgb(121, 111, 58, 0.7)*/
 }
 
 .cxb{
     font-family: microsoft yahei, serif;
-    color: yellow;
+    color: #cb002d;
     font-size: 18px;
-    text-shadow: 0px 0px 10px rgb(121, 111, 58, 0.7)
+    /*text-shadow: 0px 0px 10px rgb(121, 111, 58, 0.7)*/
+}
+
+.zt{
+    font-family: microsoft yahei, serif;
+    color: #2570e8;
+    font-size: 18px;
+    /*text-shadow: 0px 0px 10px rgb(121, 111, 58, 0.7)*/
 }
