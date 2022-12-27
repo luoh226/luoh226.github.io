@@ -351,8 +351,8 @@ body {
 }
 
 .nva{ width: 100%; height: 50px; margin-top: 0px; background-color: rgba(100,100,100,0.2); }
-.list{ width: 50%; height: 50px; margin: 0 auto; list-style-type: none; /*background-color: rgba(100,100,100,1);*/}
-.list li{ float: left;width: 25%}
+.list{ width: 60%; height: 50px; margin: 0 auto; list-style-type: none; /*background-color: rgba(100,100,100,1);*/}
+.list li{ float: left;width: 20%}
 .list li a{ color: #ffffff; line-height: 50px; display: block; text-align: center}
 .list li a:hover{ background:rgba(255,255,255,0.3); color:rgba(255,255,255,1);     transition: all 0.3s;}
 .list li a.on{ background:rgba(255,255,255,0.3); color:rgba(255,255,255,1); }
